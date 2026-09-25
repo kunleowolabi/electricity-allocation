@@ -1,0 +1,13 @@
+FINAL MODEL (R3)
+log(consumption) ~ log(population) + log(viirs_sum_raw)
+
+Trained on: ['US', 'France', 'UK', 'Italy'] (93 regions)
+
+Coefficients:
+  log_population       +0.5632
+  log_viirs_sum        +0.5721
+  intercept            -5.6238
+
+Independent validation (Turkey):
+  Share R² = +0.887
+  Spearman ρ = +0.838

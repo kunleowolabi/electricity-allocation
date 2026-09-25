@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+*.pkl
+data/boundaries/*.shp
+data/boundaries/*.shx
+data/boundaries/*.dbf
+data/boundaries/*.prj
+data/boundaries/*.cpg
